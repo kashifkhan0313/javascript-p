@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="k"> This is a paragraph</h1>
+  <p id="para">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque dolorem quo esse nesciunt est accusantium
+    deleniti provident debitis reprehenderit. Deserunt accusamus consectetur mollitia quaerat illum assumenda provident
+    iusto maiores, temporibus possimus neque quasi libero praesentium reprehenderit dolor ipsum fuga
+</p>
+<button id="btn" onclick="toggleHide()"> show / hide</button>
+<!-- <button onclick="toggle()">Toggle Paragraph</button> -->
+</body>
+<script>
+    // let time=new Date()
+    // document.write(time)
+
+    // let a=newDate.getDate();
+    // console.log(year);
+    //set time out in function 
+// function time(){
+//     console.log('kashidhks');
+// }
+
+// setTimeout(() => {
+//     time()
+// }, 3000);
+
+    //hide show function
+    //  function toggle() {
+            // var para = document.getElementById("para");
+            // para.style.display = (para.style.display === "none" || para.style.display === "") ? "block" : "none";
+        // }
+//         let para = document.getElementById('para');
+// para.addEventListener('mouseover', function run() {
+//     alert('khan');
+// });
+
+//     function toggleHide(){
+//         let btn=document.getElementById('btn');
+//         let para=document.getElementById('para');
+//         if( para.style.display !='none'){
+//             para.style.display='none';
+//         }else{
+//             para.style.display='block';
+//         }
+//     }
+   
+    // var a = "kashif khan is the ";
+    // var b = "alik hkan"
+    // var c = `${a} "kashif"`
+    // document.write(c);
+    // var len = a.length;
+    // document.write(len);
+    // var p = b.indexOf('i')
+    // document.write(p)
+    // var sub = a.slice(0, 10);
+    // console.log(sub);
+    // var d = b.substr('1,4')
+    // console.log(d);
+    // var rep = a.replace('kashif', 'pakistan');
+    // console.log(rep);
+    // console.log(a);
+    // console.log(a.toLocaleUpperCase());
+    // console.log(a.toUpperCase());
+    // var cc = a.concat('khankhna')
+    // console.log(cc);
+    // var t = "       this  is kashif khan       ";
+    // console.log(t);
+    // console.log(t.trim());
+    // var w = a.charCodeAt(3)
+    // console.log(w);
+    // console.log(a[2]);
+    // var age = 30;
+    // if (age > 20) {
+    //     console.log("you are old");
+    // }
+    // else {
+    //     console.log("you are young");
+    // }
+    // var cup = 50;
+    // switch (cup) {
+    //     case 1:
+    //         console.log('The calue of cup is 30');
+    //         break;
+    //     case 2:
+    //         console.log("The calue of cup is 40");
+    //         break;
+    //     case 4:
+    //         console.log("The calue of cup is 30");
+
+    //     default:
+    //         console.log("The calue of cup is 30");
+    //         break;
+    // }
+    // let obj={
+    //     name:'kashif khan',
+    //     fname:'bashir khan',
+    //     chanel:"khang"
+    // }
+    // console.log(obj);
+    // let ab={
+    //     name:'kashif khan khan',
+    //     fname:'bashir khan khan',
+    //     chanel:"khang ggg"
+    // }
+    // console.log(ab);
+
+        // let arry=[1,2,3,4,5,6,7,"kashif"]
+        // console.log(arry.sort());
+        // let array=JSON.stringify(arry);
+        // console.log(array);
+        //new array sort
+    //     let ary= new Array(1,2,4,12,8,5,7,"kash")
+    //    ary=ary.sort();
+    //     console.log(ary);
+
+    //functoin
+    //   function name(khan,on) {
+    //     console.log(on + " " + khan );
+    //     console.log(khan+ "  is a good boy");  
+    //   }
+    //   let khan="kashif  ";
+    //   let khan1="sami  ";
+    //   let khan2="Ali  ";
+    //   let khan3="farman  ";
+    //   let on ='good morning'
+
+    //   name(khan ,on);
+    //   name(khan1, on);
+    //   name(khan2,on);
+    //   name(khan3,on);
+    //   name(khan,on );
+
+    //   function fcn( khan ,on){
+    // console.log(khan + on);
+    //   }
+    //   var khan ="kashif khan";
+    //   var on ="sami khan"
+    //   fcn(khan,on);
+
+    //   function sum(a,b,c){
+    //     let d=a+b+c;
+    //     return d;
+    //   }
+    //   d=1+3+5;
+    //   console.log(d);
+    //   function sum(a,b){
+    //     let c=a+b; 
+    //     return c;
+    //   }
+    //   c=3+5;
+    //   console.log(c);
+
+    //   function sum(a,b,c) {
+    //     console.log(a+b+c);
+    //   }
+    //   let ab=10;
+    //   let b=10;
+    //   let c=10;
+    //   sum(ab,b,c)
+
+    // let a=confirm('do you want to delete it ')
+    // if(a){
+    //   console.log("you delete it ");
+    // }else{
+    //   console.log('you cancle it');
+    // }
+    // let i=0;
+    // for(i=0;i<=10;i++){
+    //   console.log(i);
+    // }
+    //for each loop
+    // let friend=['kashif' ,'sami' ,'ali' ,'farman']
+    // friend.forEach(khan => {
+    //     console.log(khan);
+    // });
+
+    // //for each loop
+    // let friends=['kashif' ,'sami' ,'ali' ,'farman']
+    // friend.forEach(element=> {
+    //   var b='hello friend ';
+    //   console.log(b+ element);
+    // });
+
+    // // for of loop
+    // let frend=['kashif' ,'sami' ,'ali' ,'farman']
+    // for(element of friends ){
+    //   let el='welcome ';
+    //   let al=' to digital code';
+
+    // console.log(el+ element+al);
+    // }
+
+    // // for in loop
+
+    // let employ={
+    //   name:'kashif',
+    //   salary: 10,
+    //   seatno:19
+    // }
+    //   for( key in employ)
+    //     console.log(`the ${key} of employ is ${employ[key]}`);
+
+    // let emp={
+    //     name:'kashif',
+    //   salary: 10,
+    //   seatno:1
+    // }
+    // for( ele in emp){
+    //     console.log(`The ${ele} of employ is ${emp[ele]}`);
+    // }
+    //   }
+    // // while loop
+    // let i=0;
+    // while (i<4) {
+    //  console.log(i); 
+    //  i++;
+    // }
+
+    // //so while loop
+    // let j=44;
+    // do{
+    //   console.log(j +" is grater than 4");
+    //   j++;
+    // } 
+    // while(j<6);
+
+    //events
+
+
+// arrow function
+
+// function sum(ab,b,) {
+//         console.log(ab+b);
+//       }
+//       let ab=10;
+//       let b=10;
+//       sum(ab,b)
+
+//  function sum(a,b){
+//         let c=a+b; 
+//         return c;
+//       }
+//       c=3+5;
+//       console.log(c);
+     
+// math
+    //  let m=Math;
+    //  console.log(m);
+    //  console.log(m.E);
+
+    //  function of math object
+    // let a= 45.5;
+    // let b= 43.5;
+    // console.log(Math.round(a));
+
+//     let jsonobj={
+// name:"kashif",
+// chanel:"faf",
+// friend:'no'
+//     }
+//     console.log(jsonobj);
+//     let khan=JSON.stringify(jsonobj)
+//     console.log(khan);
+// khan=khan.replace('kashif','shah')
+// console.log(khan);
+// let hh=JSON.parse(khan)
+// console.log(hh);
+console.log("kashif khan");
+const http = require('http');
+const hostname = '127.0.0.1';
+const port = 3000;
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+</script>
+
+
+</html>
